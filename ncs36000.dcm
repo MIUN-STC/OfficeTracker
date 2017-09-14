@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCS36000
+D Passive Infrared (PIR) Detector Controller
+K PIR
+F http://www.mouser.com/ds/2/308/NCS36000-D-245144.pdf
+$ENDCMP
+#
+#End Doc Library

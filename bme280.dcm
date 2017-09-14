@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BME280
+D Combined humidity, pressure sensor and temperature
+F https://cdn-shop.adafruit.com/datasheets/BST-BME280_DS001-10.pdf
+$ENDCMP
+#
+#End Doc Library
