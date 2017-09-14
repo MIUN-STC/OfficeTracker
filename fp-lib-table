@@ -1,4 +1,7 @@
 (fp_lib_table
   (lib (name BME280)(type KiCad)(uri "$(KIPRJMOD)/BME280.pretty")(options "")(descr ""))
   (lib (name XBEE)(type KiCad)(uri "$(KIPRJMOD)/XBEE.pretty")(options "")(descr ""))
+  (lib (name Capacitors_SMD)(type Github)(uri "$(KIGITHUB)/Capacitors_SMD.pretty")(options "")(descr ""))
+  (lib (name Resistors_SMD)(type Github)(uri "$(KIGITHUB)/Resistors_SMD.pretty")(options "")(descr ""))
+  (lib (name Buttons_Switches_SMD)(type Github)(uri "$(KIGITHUB)/Buttons_Switches_SMD.pretty")(options "")(descr ""))
 )

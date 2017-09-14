@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IRA-E700
+D Passive Infrared (PIR) Detector
+K PIR
+$ENDCMP
+#
 $CMP NCS36000
 D Passive Infrared (PIR) Detector Controller
 K PIR
