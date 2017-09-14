@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name BME280)(type KiCad)(uri "$(KIPRJMOD)/BME280.pretty")(options "")(descr ""))
+  (lib (name XBEE)(type KiCad)(uri "$(KIPRJMOD)/XBEE.pretty")(options "")(descr ""))
 )
