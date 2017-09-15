@@ -1,4 +1,4 @@
-update=9/14/2017 10:34:12 AM
+update=2017-09-15 13:36:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../STC.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
