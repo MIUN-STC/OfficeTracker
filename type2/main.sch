@@ -34,6 +34,7 @@ LIBS:valves
 LIBS:MultiConnect
 LIBS:PIR_Panasonic
 LIBS:Bosch_Sensortec
+LIBS:main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -565,4 +566,31 @@ Text GLabel 8600 4400 2    60   Input ~ 0
 PIR_Out
 Wire Wire Line
 	8600 4400 8350 4400
+$Comp
+L R R?
+U 1 1 59C95279
+P 3600 1800
+F 0 "R?" V 3680 1800 50  0000 C CNN
+F 1 "R" V 3600 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3530 1800 50  0001 C CNN
+F 3 "" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1950 3600 2050
+Connection ~ 3600 2050
+$Comp
+L +3.3V #PWR?
+U 1 1 59C95564
+P 3600 1600
+F 0 "#PWR?" H 3600 1450 50  0001 C CNN
+F 1 "+3.3V" H 3600 1740 50  0000 C CNN
+F 2 "" H 3600 1600 50  0001 C CNN
+F 3 "" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1600 3600 1650
 $EndSCHEMATC
